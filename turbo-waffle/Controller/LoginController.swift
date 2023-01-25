@@ -18,16 +18,45 @@ class LoginController: UIViewController {
         return iv
     }()
     
-    private let emailContainerView: UIView = {
+    private lazy var emailContainerView: UIView = {
         let view = UIView()
-        view.backgroundColor = .cyan
+        view.backgroundColor = .clear
+        
+        let iv = UIImageView()
+        iv.image = UIImage(systemName: "envelope")
+        iv.tintColor = .white
+        
+        view.addSubview(iv)
+        iv.centerY(inView: view)
+        iv.anchor(left: view.leftAnchor, paddingLeft: 8)
+        iv.setDimensions(height: 24, width: 24)
+        
+        view.addSubview(emailTextField)
+        emailTextField.centerY(inView: view)
+        emailTextField.anchor(left: iv.rightAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, paddingLeft: 8, paddingBottom: 2)
+        
+        
         view.setHeight(height: 50)
         return view
     }()
     
-    private let passwordContainerView: UIView = {
+    private lazy var passwordContainerView: UIView = {
         let view = UIView()
-        view.backgroundColor = .yellow
+        view.backgroundColor = .clear
+        
+        let iv = UIImageView()
+        iv.image = UIImage(systemName: "lock")
+        iv.tintColor = .white
+        
+        view.addSubview(iv)
+        iv.centerY(inView: view)
+        iv.anchor(left: view.leftAnchor, paddingLeft: 8)
+        iv.setDimensions(height: 24, width: 24)
+        
+        view.addSubview(passwordTextField)
+        passwordTextField.centerY(inView: view)
+        passwordTextField.anchor(left: iv.rightAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, paddingLeft: 8, paddingBottom: 2)
+        
         view.setHeight(height: 50)
         return view
     }()
@@ -40,6 +69,22 @@ class LoginController: UIViewController {
         button.backgroundColor = .systemRed
         return button
         
+    }()
+    
+    private let emailTextField: UITextField = {
+        let tf = UITextField()
+        tf.placeholder = "Email"
+        tf.textColor = .white
+        return tf
+    }()
+    
+    private let passwordTextField: UITextField = {
+        let tf = UITextField()
+        tf.placeholder = "Password"
+        tf.textColor = .white
+
+        tf.isSecureTextEntry = true
+        return tf
     }()
     
     
