@@ -10,7 +10,9 @@
 		A51CF043297EAA96000ADF64 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51CF042297EAA96000ADF64 /* ConversationsController.swift */; };
 		A51CF04529802BB1000ADF64 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51CF04429802BB1000ADF64 /* LoginController.swift */; };
 		A51CF04729802BBC000ADF64 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51CF04629802BBC000ADF64 /* RegistrationController.swift */; };
-		A51CF049298033F4000ADF64 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51CF048298033F4000ADF64 /* Extensions.swift */; };
+		A53FCB8C29908C1C006100D6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53FCB8B29908C1C006100D6 /* Extensions.swift */; };
+		A53FCB8E2990974D006100D6 /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53FCB8D2990974D006100D6 /* InputContainerView.swift */; };
+		A53FCB902990A36E006100D6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53FCB8F2990A36E006100D6 /* CustomTextField.swift */; };
 		A54B0B51297D9FCA00EEBD8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B0B50297D9FCA00EEBD8E /* AppDelegate.swift */; };
 		A54B0B53297D9FCA00EEBD8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B0B52297D9FCA00EEBD8E /* SceneDelegate.swift */; };
 		A54B0B55297D9FCA00EEBD8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B0B54297D9FCA00EEBD8E /* ViewController.swift */; };
@@ -23,7 +25,9 @@
 		A51CF042297EAA96000ADF64 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 		A51CF04429802BB1000ADF64 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		A51CF04629802BBC000ADF64 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
-		A51CF048298033F4000ADF64 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
+		A53FCB8B29908C1C006100D6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A53FCB8D2990974D006100D6 /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
+		A53FCB8F2990A36E006100D6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		A54B0B4D297D9FCA00EEBD8E /* turbo-waffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "turbo-waffle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54B0B50297D9FCA00EEBD8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A54B0B52297D9FCA00EEBD8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 		A51CF03F297EA66F000ADF64 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A53FCB8D2990974D006100D6 /* InputContainerView.swift */,
+				A53FCB8F2990A36E006100D6 /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -86,7 +92,7 @@
 		A51CF041297EA69F000ADF64 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				A51CF048298033F4000ADF64 /* Extensions.swift */,
+				A53FCB8B29908C1C006100D6 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -199,12 +205,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54B0B55297D9FCA00EEBD8E /* ViewController.swift in Sources */,
+				A53FCB8E2990974D006100D6 /* InputContainerView.swift in Sources */,
 				A54B0B51297D9FCA00EEBD8E /* AppDelegate.swift in Sources */,
 				A51CF043297EAA96000ADF64 /* ConversationsController.swift in Sources */,
 				A54B0B53297D9FCA00EEBD8E /* SceneDelegate.swift in Sources */,
 				A51CF04729802BBC000ADF64 /* RegistrationController.swift in Sources */,
 				A51CF04529802BB1000ADF64 /* LoginController.swift in Sources */,
-				A51CF049298033F4000ADF64 /* Extensions.swift in Sources */,
+				A53FCB8C29908C1C006100D6 /* Extensions.swift in Sources */,
+				A53FCB902990A36E006100D6 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
