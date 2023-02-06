@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Foundation
 
 class CustomTextField: UITextField {
     init(placeholder: String) {
