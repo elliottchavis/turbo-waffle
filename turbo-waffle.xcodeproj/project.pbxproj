@@ -13,6 +13,7 @@
 		A53FCB8C29908C1C006100D6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53FCB8B29908C1C006100D6 /* Extensions.swift */; };
 		A53FCB8E2990974D006100D6 /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53FCB8D2990974D006100D6 /* InputContainerView.swift */; };
 		A53FCB902990A36E006100D6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53FCB8F2990A36E006100D6 /* CustomTextField.swift */; };
+		A5426FFE2993EEE000AF9338 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5426FFD2993EEE000AF9338 /* LoginViewModel.swift */; };
 		A54B0B51297D9FCA00EEBD8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B0B50297D9FCA00EEBD8E /* AppDelegate.swift */; };
 		A54B0B53297D9FCA00EEBD8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B0B52297D9FCA00EEBD8E /* SceneDelegate.swift */; };
 		A54B0B55297D9FCA00EEBD8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B0B54297D9FCA00EEBD8E /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 		A53FCB8B29908C1C006100D6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A53FCB8D2990974D006100D6 /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
 		A53FCB8F2990A36E006100D6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A5426FFD2993EEE000AF9338 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		A54B0B4D297D9FCA00EEBD8E /* turbo-waffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "turbo-waffle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54B0B50297D9FCA00EEBD8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A54B0B52297D9FCA00EEBD8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		A51CF03E297EA66E000ADF64 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A5426FFD2993EEE000AF9338 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				A51CF04729802BBC000ADF64 /* RegistrationController.swift in Sources */,
 				A51CF04529802BB1000ADF64 /* LoginController.swift in Sources */,
 				A53FCB8C29908C1C006100D6 /* Extensions.swift in Sources */,
+				A5426FFE2993EEE000AF9338 /* LoginViewModel.swift in Sources */,
 				A53FCB902990A36E006100D6 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
