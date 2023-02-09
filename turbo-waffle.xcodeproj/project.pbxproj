@@ -20,6 +20,7 @@
 		A54B0B58297D9FCA00EEBD8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B0B56297D9FCA00EEBD8E /* Main.storyboard */; };
 		A54B0B5A297D9FCB00EEBD8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B0B59297D9FCB00EEBD8E /* Assets.xcassets */; };
 		A54B0B5D297D9FCB00EEBD8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B0B5B297D9FCB00EEBD8E /* LaunchScreen.storyboard */; };
+		A5A493192994DE25004AC56B /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A493182994DE25004AC56B /* RegistrationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		A54B0B59297D9FCB00EEBD8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A54B0B5C297D9FCB00EEBD8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54B0B5E297D9FCB00EEBD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A493182994DE25004AC56B /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				A5426FFD2993EEE000AF9338 /* LoginViewModel.swift */,
+				A5A493182994DE25004AC56B /* RegistrationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54B0B55297D9FCA00EEBD8E /* ViewController.swift in Sources */,
+				A5A493192994DE25004AC56B /* RegistrationViewModel.swift in Sources */,
 				A53FCB8E2990974D006100D6 /* InputContainerView.swift in Sources */,
 				A54B0B51297D9FCA00EEBD8E /* AppDelegate.swift in Sources */,
 				A51CF043297EAA96000ADF64 /* ConversationsController.swift in Sources */,
